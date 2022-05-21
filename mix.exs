@@ -34,13 +34,13 @@ defmodule Exnowflake.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:redix, "~> 0.10.2"},
+      {:redix, "~> 1.1"},
       # Benchmarking dependencies
-      {:benchee, "~> 1.0", only: [:dev]},
+      {:benchee, "~> 1.1", only: [:dev]},
       # Code Analysis
-      {:dialyxir, "~> 1.0.0-rc.7", optional: true, only: [:dev], runtime: false},
+      {:dialyxir, "~> 1.1", optional: true, only: [:dev], runtime: false},
       # Docs
-      {:ex_doc, "~> 0.21", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.28", only: :dev, runtime: false}
     ]
   end
 
